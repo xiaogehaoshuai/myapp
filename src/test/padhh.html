@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            overflow: hidden;
+            position: absolute;
+        }
+
+        #div1 {
+            background: red;
+            top: 500px;
+            left: 10%;
+        }
+
+        #div2 {
+            background: #ccc;
+            bottom: 20px;
+            right: 10px;
+        }
+    </style>
+    <script src="mobileBUGFix.mini.js"></script>
+</head>
+
+<body>
+
+<div id="div1"></div>
+<div id="div2"></div>
+
+<button id="btn" onclick="start()">抛物线</button>
+<script>
+    // 抛物线计算公式 y = a*x*x + b*x + c
+    // 坐标点x、y是已知的，a、b、c是未知的
+
+    // 获取初始元素
+    let oDiv1 = document.getElementById("div1")
+
+    // 获取目标元素
+    let oDiv2 = document.getElementById("div2")
+
+    // 获取初始元素的位置
+    let elX = oDiv1.getBoundingClientRect().left
+    let elY = oDiv1.getBoundingClientRect().top
+
+    // 获取初始元素到目标元素的偏移总量
+    let diffX = oDiv2.getBoundingClientRect().left - oDiv1.getBoundingClientRect().left
+    let diffY = oDiv2.getBoundingClientRect().top - oDiv1.getBoundingClientRect().top
+
+    // 假设(elX,elY)为(0,0),则c = 0，求a、b
+    // 设a=0.001 => 实际指焦点到准线的距离，可以抽象成曲率，这里模拟扔物体的抛物线，因此是开口向下的
+    let a = diffY/(diffX * diffX)
+
+    // 则 b = (y - a*x*x) / x
+    let b = 0
+
+    // 定义一个定时器，用来执行抛物线动画
+    let timer = null;
+
+    // 执行的时间
+    let duration = 1500
+
+    function start() {
+        // 执行的开始时间
+        beginTime = new Date()
+        // 结束的时间
+        endTime = +beginTime + duration
+        // 定时器，执行抛物线动画
+        timer = setInterval(() => {
+            let now = new Date()
+            step(now);
+        }, 13);
+    }
+
+    // 抛物线动画的方法
+    function step(now) {
+        let x, y;
+        if (now > endTime) {
+            // 运行结束
+            x = diffX;
+            y = diffY;
+            clearInterval(timer);
+        } else {
+            // 计算每一步的X轴的位置
+            x = diffX * ((now - beginTime) / duration);
+            // 则每一步的Y轴的位置y = a*x*x + b*x + c;   c==0;
+            y = a * x * x + b * x;
+        }
+        oDiv1.style.cssText = `position:absolute;left:${elX + x}px;top:${elY + y}px`
+    }
+</script>
+
+</body>
+
+</html>

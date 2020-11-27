@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title></title>
+    <g id="check/icn_empty_normal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-Copy-26" fill="#FFFFFF" x="2" y="2" width="24" height="24" rx="2"></rect>
+        <path d="M24,2 C25.1045695,2 26,2.8954305 26,4 L26,24 C26,25.1045695 25.1045695,26 24,26 L4,26 C2.8954305,26 2,25.1045695 2,24 L2,4 C2,2.8954305 2.8954305,2 4,2 L24,2 Z M24,3 L4,3 C3.48716416,3 3.06449284,3.38604019 3.00672773,3.88337887 L3,4 L3,24 C3,24.5128358 3.38604019,24.9355072 3.88337887,24.9932723 L4,25 L24,25 C24.5128358,25 24.9355072,24.6139598 24.9932723,24.1166211 L25,24 L25,4 C25,3.48716416 24.6139598,3.06449284 24.1166211,3.00672773 L24,3 Z" id="Rectangle-Copy-26" fill="#969C99" fill-rule="nonzero"></path>
+    </g>
+</svg>

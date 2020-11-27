@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title></title>
+    <g id="sort_pic" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="椭圆形" fill="#B9AFE5" cx="13" cy="13" r="13"></circle>
+        <path d="M7,9 L7,18 L19,18 L19,9 L7,9 Z M6,8 L20,8 L20,19 L6,19 L6,8 Z" id="Rectangle" fill="#FFFFFF" fill-rule="nonzero"></path>
+        <g id="编组" transform="translate(9.000000, 11.000000)" fill="#FFFFFF">
+            <polygon id="Path-12" points="1.08 6.01523985 9.08 6.04 7.14896552 2.04 4.68158674 4.71741555 3.85400053 2.89644108"></polygon>
+            <circle id="Oval" cx="0.84" cy="0.84" r="1"></circle>
+        </g>
+    </g>
+</svg>

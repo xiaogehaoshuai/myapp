@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title></title>
+    <g id="btn/upload_normal" stroke="none" stroke-width="1"  fill-rule="evenodd">
+        <path d="M23,4 L5,4 L5,24 L23,24 L23,4 Z M24,3 L24,25 L4,25 L4,3 L24,3 Z" id="Rectangle"  fill-rule="nonzero"></path>
+        <g id="Group-3" transform="translate(8.000000, 10.000000)"  fill-rule="nonzero">
+            <polygon id="Line" points="6.5 0.5 6.5 12 5.5 12 5.5 0.5"></polygon>
+            <path d="M5.64644661,-0.353553391 C5.82001296,-0.527119742 6.08943736,-0.546404893 6.2843055,-0.411408841 L6.35355339,-0.353553391 L11.8535534,5.14644661 L11.1464466,5.85355339 L6,0.707 L0.853553391,5.85355339 L0.146446609,5.14644661 L5.64644661,-0.353553391 Z" id="Path"></path>
+        </g>
+        <rect id="矩形" x="8" y="6" width="12" height="1"></rect>
+    </g>
+</svg>

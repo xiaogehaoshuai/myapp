@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title></title>
+    <g id="btn/exam2_normal" stroke="none" stroke-width="1"  fill-rule="evenodd">
+        <g id="Group" transform="translate(2.000000, 3.000000)"  fill-rule="nonzero">
+            <polygon id="Line-2-Copy-4" points="16 6 16 5 20 5 20 6"></polygon>
+            <polygon id="Line-2-Copy-3" transform="translate(5.500000, 13.500000) rotate(-90.000000) translate(-5.500000, -13.500000) " points="-2 14 -2 13 13 13 13 14"></polygon>
+            <polygon id="Line-2-Copy-5" points="16 11 16 10 20 10 20 11"></polygon>
+            <path d="M1,6 L1,21 L14,21 L14,6 L1,6 Z M0,5 L15,5 L15,22 L0,22 L0,5 Z" id="Rectangle"></path>
+            <path d="M24,0 L24,18 L16,18 L16,17 L23,17 L23,1 L10,1 L10,4 L9,4 L9,0 L24,0 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

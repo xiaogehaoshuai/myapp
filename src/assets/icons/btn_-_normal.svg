@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title></title>
+    <g id="btn_-_normal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="椭圆形" fill="#0ED04B" cx="15" cy="15" r="14"></circle>
+        <rect id="矩形" fill="#FFFFFF" x="6" y="14" width="18" height="2"></rect>
+    </g>
+</svg>
